@@ -1,6 +1,138 @@
+
+@font-face{
+	src:url('../fonts/BreePeru_Regular.otf');
+	font-family: 'BreePeru';
+	font-weight: 400;
+}
+@font-face{
+	src:url('../fonts/BreePeru_Bold.otf');
+	font-family: 'BreePeru';
+	font-weight: 700;
+}
+
 *{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
 	box-sizing:border-box;
 }
+
+
+wrapper-strech{
+	width: 100%;
+	padding: 0 25px;
+}
+.wrapper{
+	width: 1300px;
+	margin: 0 auto;
+}
+
+
+
+
+#topbar{
+	background-color: #fff;
+	padding: 0 3px;
+}
+
+
+/*==== header =====*/
+
+	/*  Menú principal  */
+
+	.top-mensaje{
+		text-align: right;
+		color: #485ea3;
+		font:700 13px 'Arial';
+		margin-bottom: 15px;
+	}
+
+	.menu-item{text-align: center;}
+	.menu-item a{
+				text-decoration: none;
+				font:inherit;
+				color: inherit;
+	}
+
+	.header-menu{
+		list-style: none;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+		.header-menu .menu-item{
+			display: inline-block;
+			font:400 23px 'BreePeru';
+			color: #fff;
+			margin-right: 20px;
+		}
+			.header-menu .menu-item:last-child{margin-right: 0px}
+
+			.header-menu .menu-item a{
+				display: block;
+				padding: 12px 15px;
+			}
+
+			.header-menu .menu-item{
+				background-repeat: no-repeat;
+				background-position: top left,bottom right;
+			}
+			#menu-inicio.active,#menu-inicio:hover {
+				background-image:url('../img/menu-inicio-top.png'),url('../img/menu-inicio-bot.png');
+			}
+			#menu-inicio.active,#menu-conoce:hover {
+				background-image:url('../img/menu-conocenos-top.png'),url('../img/menu-conocenos-bot.png');
+			}
+
+	.logo{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 30px;
+	}
+
+
+
+/*======== Foot =========*/
+
+	footer{
+		background-color: rgba(140,81,150,0.7);
+		padding-top: 16px;
+		padding-bottom: 22px;
+	}
+
+	/* Menu footer */
+
+	.f-menu{
+
+	}
+		.line-menu{
+			list-style: none;
+			text-align: center;
+		}
+		.line-menu .menu-item{
+			display: inline-block;
+			font:700 16px 'Arial';
+			color:#fff;
+			margin-right: 20px;
+			border-right: 1px solid #fff;
+			padding: 2px 20px;
+		}
+		.line-menu .menu-item:last-child{margin-right: 0px;border-right: none;}
+			
+			.line-menu .menu-item a{
+				
+			}
+
+
+	.f-advertencia{
+		font:400 16px 'Arial';
+		color: #fff;
+		text-align: justify;
+		padding-bottom: 20px;
+	}
+	.f-fecha{
+		font:400 19px 'Arial';
+		color: #fff;
+		text-align: center;
+		padding-bottom: 20px;
+	}

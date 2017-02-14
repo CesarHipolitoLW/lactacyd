@@ -1,0 +1,25 @@
+/* Estilos para la página de inicio */
+
+
+
+
+.logo-sanofi{
+	text-align: right;
+}
+
+
+#content-main{
+	background-image: url('../img/inicio-fondo-alt.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#valla{
+	text-align: center;
+	/*background-image: url('../img/inicio-toallas.png'),url('../img/inicio-toallas.png');
+	background-repeat: no-repeat;
+	background-position: */
+}
+
