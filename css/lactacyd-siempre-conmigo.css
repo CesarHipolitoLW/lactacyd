@@ -1,0 +1,43 @@
+/* Estilos para la página de lactacyd siempre conmigo */
+
+
+
+#content-main{
+	background-image: url('../img/inicio-fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#valla{
+	background-image:url('../img/producto-botellas.png'),url(../img/producto-valla.png);
+	background-repeat: no-repeat;
+	background-position: 14% center, 87% 0;
+	max-width: 1600px;
+	margin:0 auto;
+}
+
+.fondos-vaya{
+	
+	padding: 1px;
+
+}
+
+.producto-text-block {
+	
+    width: 461px;
+    /*height: 400px;*/
+    margin: 125px 70px 222px auto;
+	
+}
+
+
+	.producto-text-block p{
+		font:400 22px 'HelveticaN';
+		color:#fff;
+		text-align:left;
+		margin-bottom: 25px;
+	}
+
+.producto-redes p{
+	text-align: center;
+}

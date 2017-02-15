@@ -95,6 +95,9 @@ wrapper-strech{
 			#menu-conoce.active,#menu-conoce:hover {
 				background-image:url('../img/menu-conocenos-top.png'),url('../img/menu-conocenos-bot.png');
 			}
+			#menu-siempre.active,#menu-siempre:hover {
+				background-image:url('../img/menu-producto-top.png'),url('../img/menu-producto-bot.png');
+			}
 
 	.logo{
 		display: inline-block;
