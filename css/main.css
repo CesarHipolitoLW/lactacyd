@@ -9,6 +9,16 @@
 	font-family: 'BreePeru';
 	font-weight: 700;
 }
+@font-face{
+	src:url('../fonts/HelveticaNeueLTStd-It.otf');
+	font-family: 'HelveticaN';
+	font-weight: 400;
+}
+@font-face{
+	src:url('../fonts/HelveticaNeueLTStd-BdIt.otf');
+	font-family: 'HelveticaN';
+	font-weight: 700;
+}
 
 *{
 	margin: 0;
@@ -35,7 +45,9 @@ wrapper-strech{
 	padding: 0 3px;
 }
 
-
+.logo-sanofi{
+	text-align: right;
+}
 /*==== header =====*/
 
 	/*  Menú principal  */
@@ -70,7 +82,7 @@ wrapper-strech{
 
 			.header-menu .menu-item a{
 				display: block;
-				padding: 12px 15px;
+				padding: 15px 15px;
 			}
 
 			.header-menu .menu-item{
@@ -80,7 +92,7 @@ wrapper-strech{
 			#menu-inicio.active,#menu-inicio:hover {
 				background-image:url('../img/menu-inicio-top.png'),url('../img/menu-inicio-bot.png');
 			}
-			#menu-inicio.active,#menu-conoce:hover {
+			#menu-conoce.active,#menu-conoce:hover {
 				background-image:url('../img/menu-conocenos-top.png'),url('../img/menu-conocenos-bot.png');
 			}
 

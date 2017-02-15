@@ -1,0 +1,45 @@
+/* Estilos para la página de Conoce-lactacyd */
+
+
+
+#content-main{
+	background-image: url('../img/inicio-fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#valla{
+	background-image:url('../img/conocenos-botellas.png'),url(../img/conocenos-vaya.png);
+	background-repeat: no-repeat;
+	background-position: 5% center, 91% center;
+	max-width: 1600px;
+	margin:0 auto;
+}
+
+.fondos-vaya{
+	
+	padding: 1px;
+
+}
+
+.conocenos-text-block {
+	
+    width: 650px;
+    height: 400px;
+    margin: 220px 50px 216px auto;
+	
+}
+
+	.conocenos-text-block h1{
+		font:700 33px 'HelveticaN';
+		color:#fff;
+		text-align:center;
+		text-transform:uppercase;
+		margin-bottom: 30px;
+	}
+	.conocenos-text-block p{
+		font:400 25px 'HelveticaN';
+		color:#fff;
+		text-align:left;
+		margin-bottom: 25px;
+	}
