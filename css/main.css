@@ -39,10 +39,31 @@ wrapper-strech{
 	padding: 0 25px;
 }
 .wrapper{
-	width: 1300px;
+	max-width: 1300px;
+	width: 100%;
 	margin: 0 auto;
 }
 
+	@media(max-width: 1320px){
+		.wrapper{
+			max-width: 1260px;
+		}
+	}
+	@media(max-width: 1279px){
+		.wrapper{
+			max-width: 1170px;
+		}
+	}
+	@media(max-width: 1199px){
+		.wrapper{
+			max-width: 940px;
+		}
+	}
+	@media(max-width: 959px){
+		.wrapper{
+			max-width: 728px;
+		}
+	}
 
 
 
@@ -56,6 +77,10 @@ wrapper-strech{
 }
 /*==== header =====*/
 
+	header{
+		padding-bottom: 5px;
+	}
+
 	/*  Menú principal  */
 
 	.top-mensaje{
@@ -65,6 +90,8 @@ wrapper-strech{
 		margin-bottom: 15px;
 		padding: 0 30px;
 	}
+
+	
 
 	.menu-item{text-align: center;}
 	.menu-item a{
@@ -114,8 +141,45 @@ wrapper-strech{
 		vertical-align: middle;
 		margin-left: 30px;
 	}
+		.logo img{
+			max-width: 100%;
+			margin: 0 auto;
+			display: block;
+		}
 
+	@media(max-width: 1320px){
+		.logo{margin-left: 5px;}
+	}
+	@media(max-width: 1279px){
+		.header-menu .menu-item{margin-right: 5px;}
+		.header-menu .menu-item a{padding:15px 10px;}
 
+		.logo{width: 210px;}
+	}
+	@media(max-width: 1199px){
+		.logo{width: 158px;}
+		.header-menu .menu-item{font-size: 18px;}
+		
+	}
+	@media(max-width: 959px){
+		#navegacion{ 
+			display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+		   	display: -moz-box;      /* OLD: Firefox (buggy) */
+		   	display: -o-box;
+		   	display: -ms-flexbox;   /* MID: IE 10 */
+		   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+		   	display: flex;
+		   	flex-flow: column-reverse;
+   		}
+   		.logo{
+   			width: 100%;
+   			margin-left: 0px;
+   		}	
+		.header-menu .menu-item a{
+			padding:15px 6px;
+		}
+		.header-menu .menu-item{margin-right: 3px;}
+	}
 
 /*======== Foot =========*/
 
@@ -150,13 +214,13 @@ wrapper-strech{
 
 
 	.f-advertencia{
-		font:400 16px 'Arial';
+		font:300 16px 'Arial';
 		color: #fff;
 		text-align: justify;
 		padding-bottom: 20px;
 	}
 	.f-fecha{
-		font:400 19px 'Arial';
+		font:300 19px 'Arial';
 		color: #fff;
 		text-align: center;
 		padding-bottom: 20px;

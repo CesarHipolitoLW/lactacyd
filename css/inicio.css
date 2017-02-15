@@ -7,7 +7,7 @@
 
 
 #content-main{
-	background-image: url('../img/inicio-fondo-alt.jpg');
+	background-image: url('../img/inicio-fondo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -16,8 +16,37 @@
 
 #valla{
 	text-align: center;
-	/*background-image: url('../img/inicio-toallas.png'),url('../img/inicio-toallas.png');
+	background-image:
+	
+	url('../img/inicio-bolso.png'),
+	url('../img/inicio-bottella.png');
+	background-size:  auto, auto;
 	background-repeat: no-repeat;
-	background-position: */
+	background-position: right bottom,left bottom;
+	max-width: 1600px;
+	margin:0 auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
+
+	#valla .valla-contenido{
+		max-width: 100%;
+	}
+
+@media(max-width: 1300px){
+	#valla .valla-contenido{
+		width: 670px;
+	}
+}
+@media(max-width: 1199px){
+	#valla .valla-contenido{
+		width: 575px;
+	}
+}
+@media(max-width: 959px){
+	#valla .valla-contenido{
+		width: 500px;
+	}
+}
+
 

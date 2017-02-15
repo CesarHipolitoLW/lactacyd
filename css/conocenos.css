@@ -11,7 +11,7 @@
 #valla{
 	background-image:url('../img/conocenos-botellas.png'),url(../img/conocenos-vaya.png);
 	background-repeat: no-repeat;
-	background-position: 5% center, 91% center;
+	background-position: 5% center, right center;
 	max-width: 1600px;
 	margin:0 auto;
 }
@@ -26,7 +26,7 @@
 	
     width: 650px;
     height: 400px;
-    margin: 220px 50px 216px auto;
+    margin: 220px 0px 216px auto;
 	
 }
 
@@ -43,3 +43,37 @@
 		text-align:left;
 		margin-bottom: 25px;
 	}
+
+
+
+
+@media(max-width: 1550px){
+	#valla{width: 1400px;}
+	.conocenos-text-block{
+		margin-right: 83px;
+	}
+}
+@media(max-width: 1440px){
+	#valla{
+		width: 1280px;
+		background-size: 420px auto,auto;
+		background-position: 5% 88%, right center;
+	}
+	.conocenos-text-block{
+		margin:150px 125px 160px auto;
+	}
+}
+
+@media(max-width: 1319px){
+	#valla{
+		width: 1170px;
+		background-position: 5% bottom, right center;
+		background-size: 360px auto,auto;
+	}
+	.conocenos-text-block{
+		margin:115px 120px 157px auto;
+	}
+}
+@media(max-width: 1199px){
+	.conocenos-text-block{margin-right: 5px;}
+}
