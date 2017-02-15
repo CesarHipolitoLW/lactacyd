@@ -1,0 +1,96 @@
+/* Estilos para la página de participa y gana */
+
+
+
+
+
+
+
+#content-main{
+	background-image: 
+	
+	url('../img/inicio-fondo.jpg');
+	background-size:  cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#valla{
+	background-image:
+	url(../img/participa-valla.png),
+	url('../img/participa-bolso.png'),
+	url('../img/participa-botella.png');
+	background-size: auto, auto, auto;
+	background-repeat: no-repeat;
+	background-position: 44% top,right 60%,left 60%;
+	max-width: 1600px;
+	margin:0 auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.instrucciones{
+	margin: 176px 266px 190px auto;
+    width: 680px;
+}
+
+.instrucciones__titulo{
+	padding-left: 50px;
+}
+.instrucciones__lista{
+	padding-left: 50px;
+	font:300 25px 'HelveticaN';
+	color: #fff;
+}
+
+.instrucciones__lista__item{
+	margin-bottom: 3px;
+}
+
+	.instrucciones__lista__item img{
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+
+
+/* Paquetes row  */
+
+.paquetes{
+	padding-top: 35px;
+}
+
+.paquetes-row{
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+   	display: flex;
+}
+
+.paquetes-col{
+	text-align: center;
+	font:400 21px 'HelveticaN';
+	color: #fff;
+	width: 33.33%;
+}
+	.paquetes-col--relax{
+		display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	   	display: -moz-box;      /* OLD: Firefox (buggy) */
+	   	display: -o-box;
+	   	display: -ms-flexbox;   /* MID: IE 10 */
+	   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+	   	display: flex;
+	   	justify-content: center;
+	}
+	.paquetes-col img{
+		display: block;
+		margin:0 auto;
+		
+	}
+	
+	.paquetes-col--relax a{
+		margin: auto auto;
+
+	}

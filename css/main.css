@@ -19,13 +19,19 @@
 	font-family: 'HelveticaN';
 	font-weight: 700;
 }
+@font-face{
+	src:url('../fonts/HelveticaNeueLTStd-LtIt.otf');
+	font-family: 'HelveticaN';
+	font-weight: 300;
+}
 
 *{
 	margin: 0;
 	padding: 0;
-	font-size: 14px;
+	font-size: inherit;
 	box-sizing:border-box;
 }
+html{font-size: 14px;}
 
 
 wrapper-strech{
@@ -42,7 +48,7 @@ wrapper-strech{
 
 #topbar{
 	background-color: #fff;
-	padding: 0 3px;
+	padding: 0 30px;
 }
 
 .logo-sanofi{
@@ -57,6 +63,7 @@ wrapper-strech{
 		color: #485ea3;
 		font:700 13px 'Arial';
 		margin-bottom: 15px;
+		padding: 0 30px;
 	}
 
 	.menu-item{text-align: center;}
@@ -97,6 +104,9 @@ wrapper-strech{
 			}
 			#menu-siempre.active,#menu-siempre:hover {
 				background-image:url('../img/menu-producto-top.png'),url('../img/menu-producto-bot.png');
+			}
+			#menu-participa.active,#menu-participa:hover {
+				background-image:url('../img/menu-participa-top.png'),url('../img/menu-participa-bot.png');
 			}
 
 	.logo{
