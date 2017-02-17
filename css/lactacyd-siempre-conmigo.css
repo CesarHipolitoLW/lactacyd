@@ -41,3 +41,46 @@
 .producto-redes p{
 	text-align: center;
 }
+
+
+@media(max-width: 1550px){
+	#valla{width: 1400px;}
+	.producto-text-block{margin: 125px 145px 160px auto;}
+}
+@media(max-width: 1440px){
+	#valla{
+		width: 1280px;
+		
+		background-position:0% 88%, right top;
+	}
+	.producto-text-block{
+		margin:125px 110px 160px auto;
+	}
+}
+
+@media(max-width: 1319px){
+	#valla{
+		width: 1170px;
+		background-size: 500px,auto;
+	}
+	
+}
+@media(max-width: 1199px){
+	#valla{
+		width: 940px;
+		background-size: 375px,auto;
+	}
+
+}
+@media(max-width: 959px){
+		#valla{
+			width: 728px;
+			background-size:250px auto,90% auto;
+			background-position: 0% bottom, right top;
+		}
+		.producto-text-block{
+			margin: 108px 100px 150px auto;
+			width: 390px;
+		}
+		.producto-text-block p{font-size: 18px;margin-bottom: 20px;}
+	}

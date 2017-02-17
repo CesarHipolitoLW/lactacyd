@@ -31,15 +31,16 @@
 }
 
 .instrucciones{
-	margin: 176px 266px 190px auto;
-    width: 680px;
+	margin: 176px 240px 190px auto;
+    width: 780px;
+    height: 475px;
 }
 
 .instrucciones__titulo{
-	padding-left: 50px;
+	padding-left: 80px;
 }
 .instrucciones__lista{
-	padding-left: 50px;
+	padding-left: 80px;
 	font:300 25px 'HelveticaN';
 	color: #fff;
 }
@@ -94,3 +95,106 @@
 		margin: auto auto;
 
 	}
+
+@media(max-width: 1550px){
+	#valla{width: 1400px;}
+	
+}
+@media(max-width: 1440px){
+	#valla{
+		width: 1280px;	
+	}
+	.instrucciones{margin:176px 210px 190px auto;}
+	
+}
+
+@media(max-width: 1319px){
+	#valla{
+		width: 1170px;
+	}
+	.instrucciones{margin: 176px 150px 190px auto;}
+}
+@media(max-width: 1199px){
+	#valla{
+		width: 940px;
+		background-size:100% auto,auto,auto;
+	}
+	.instrucciones{width: 660px;height: 410px;margin: 135px 105px 120px auto;}
+	.instrucciones__titulo img{width: 450px;}
+	.instrucciones__lista{font-size: 20px;}
+	.instrucciones__lista__item img{width: 35px;}
+	.instrucciones__lista__item a img{width: 280px;}
+	.paquetes-col{font-size: 19px;}
+	.paquetes{padding-top:15px;}
+
+
+}
+@media(max-width: 959px){
+		#valla{
+			width: 728px;
+			background-size:100% auto,auto,auto;
+			
+		}
+		.instrucciones {
+		    width: 520px;
+		    height: 320px;
+		    margin: 110px 75px 80px auto;
+		}
+		.instrucciones__titulo {padding-left: 50px;}
+		.instrucciones__titulo img { width: 350px;}
+		.instrucciones__lista{
+			padding-left: 50px;font-size: 18px;
+		}
+		.instrucciones__lista__item img {
+		    width: 30px;
+		}
+		.paquetes {padding-top: 15px;}
+		.paquetes-col{font-size: 18px;}
+		.paquetes-col img{width: 95px;}
+}
+
+
+.cont-instrucciones{display: none;}
+.cont-dni__titulo img{margin:0 auto;display: block;}
+.cont-dni__texto {
+	font: 500 21px 'HelveticaN';
+	color: #fff;
+	text-align: center;
+	width: 505px;
+	margin: 30px auto 0;
+	
+}
+	.cont-dni__texto h2{
+		font: 700 34px 'HelveticaN';
+		color: #fff;
+		text-align: center;
+	}
+
+	.cont-dni__cuadro{    padding-top: 10px;	}
+	.cont-dni__cuadro label{
+		font: 300 21px 'HelveticaN';
+		color: #fff;
+		display: block; text-align: center;
+	}
+	.cont-dni__cuadro #dni{
+		font: 300 21px 'HelveticaN';
+		color: #333;
+		display: block;
+		width: 220px;height: 41px;
+		background-image: url('../img/dni-input-fondo.png');
+		background-repeat: no-repeat;background-size: 100% 100%;
+		margin: 0 auto;
+		border:0;
+		padding: 5px 2px;
+	}
+	.cont-dni__cuadro #dni-submit{
+		background-image: url('../img/dni-input-fondo.png');
+		background-repeat: repeat;
+		margin: 0 auto;
+		width: 154px;
+		display: block;
+		border: 2px solid #fff;
+		border-radius: 20px;
+		padding: 10px 34px;
+	}
+

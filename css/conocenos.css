@@ -75,5 +75,28 @@
 	}
 }
 @media(max-width: 1199px){
-	.conocenos-text-block{margin-right: 5px;}
+	#valla{
+		width: 940px;
+		background-position: 0% bottom, right center;
+		background-size: 241px auto,874px auto;
+	}
+	.conocenos-text-block{
+		margin: 100px 111px 100px auto;
+		width: 590px;
+	}
+		.conocenos-text-block h1{font-size: 30px;}
+		.conocenos-text-block p{font-size: 22px;}
 }
+@media(max-width: 959px){
+		#valla{
+			width: 728px;
+			background-size: 225px auto,100% auto;
+			background-position: 100% bottom, right center;
+		}
+		.conocenos-text-block {
+			margin: 85px 80px 100px auto;
+			width: 500px;    height: 310px;
+		}
+		.conocenos-text-block h1{font-size: 26px;margin-bottom: 15px;}
+		.conocenos-text-block p{font-size: 18px;margin-bottom: 15px;}
+	}
