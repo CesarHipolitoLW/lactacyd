@@ -100,3 +100,36 @@
 		.conocenos-text-block h1{font-size: 26px;margin-bottom: 15px;}
 		.conocenos-text-block p{font-size: 18px;margin-bottom: 15px;}
 	}
+
+@media(max-width: 767px){
+	#content-main{
+		background-image: url('../img/conocenos_m-fondo.jpg');
+		background-position: center bottom;
+	}
+	#valla{ 
+		width: 100%;
+	    background-image: url(../img/conocenos-botellas.png),url(../img/conocenos_m-vaya.png);
+	    background-size: 490px auto, auto;
+	    background-position: center 94%, center top;
+	}
+
+	.conocenos-text-block{
+		margin: 137px auto 713px auto;
+	    width: 359px;
+	    height: 360px;
+	}
+}
+
+@media(max-width: 500px){
+
+	#valla{background-size: 300px auto, 390px auto;}
+	.conocenos-text-block{
+		margin: 60px auto 420px auto;
+	    width: 288px;
+	    height: 315px;
+	    padding: 0 15px;
+	}
+	.conocenos-text-block p{font-size: 16px;}
+	.conocenos-text-block h1{font-size: 22px;}
+	
+}

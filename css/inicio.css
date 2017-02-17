@@ -32,6 +32,7 @@
 	#valla .valla-contenido{
 		max-width: 100%;
 	}
+	#valla .valla-contenido-movil{display: none;}
 
 @media(max-width: 1300px){
 	#valla .valla-contenido{
@@ -48,5 +49,27 @@
 		width: 500px;
 	}
 }
+
+@media(max-width: 767px){
+
+	#content-main{
+		background-image: url('../img/inicio_m-fondo.jpg');
+		background-position: bottom;
+	}
+	#valla{background:none;	}
+
+	#valla .valla-contenido{display: none;}
+	#valla .valla-contenido-movil{
+		display: block;
+		max-width: 100%;
+		margin:40px auto 450px;
+	}
+
+
+}
+
+
+
+
 
 

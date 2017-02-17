@@ -72,6 +72,7 @@ html{font-size: 14px;}
 	@media(max-width: 767px){
 		.wrapper{
 			max-width: 100%;
+			padding:0 15px;
 		}
 	}
 
@@ -101,7 +102,8 @@ html{font-size: 14px;}
 		
 	}
 
-	
+	.menu-movil-trigger,#header-menu-movil{display: none;}
+
 
 	.menu-item{text-align: center;}
 	.menu-item a{
@@ -204,7 +206,7 @@ html{font-size: 14px;}
 		}
 		.line-menu .menu-item{
 			display: inline-block;
-			font:700 16px 'Arial';
+			font:700 17px 'Arial';
 			color:#fff;
 			margin-right: 20px;
 			border-right: 1px solid #fff;
@@ -229,3 +231,64 @@ html{font-size: 14px;}
 		text-align: center;
 		padding-bottom: 20px;
 	}
+
+
+@media(max-width:767px){
+
+	#topbar img{height: 23px;}
+	.top-mensaje{font-size: 12px;}
+
+	.logo{
+   			width: 100%;
+   			display: block;
+   			margin:0 auto;
+   		}	
+
+	#header-menu{display: none;}
+	/*  menu responsive */
+
+	.line-menu .menu-item{
+			border-right: 0px;
+			margin: 0 6px;
+			padding: 2px 4px;
+			
+		}
+
+	.menu-movil-trigger{
+		display: block;
+		position: absolute;
+		color: #000000;
+		top:45px;
+		left:20px;
+		font-size: 25px;
+	}
+
+	.menu-movil{
+		display: none;
+		position:absolute;
+		top:75px;
+		background-color: #000;
+	}
+	.menu-movil .menu-item{
+		display: block;
+		background-image: none !important;
+		margin-right: 0px;
+	}
+		.menu-movil .menu-item.active,.menu-movil .menu-item:hover{
+			background-image: none;
+			background-color:#444; 
+		}
+
+	.f-advertencia{font-size: 14px}
+	.f-fecha{font-size: 16px;	}
+}
+
+@media(max-width:419px){
+	.f-advertencia{font-size: 12px;padding-bottom: 10px;}
+	.f-fecha{font-size: 14px;padding-bottom: 10px;	}
+	#valla .valla-contenido-movil{margin: 40px auto 200px;}
+	.line-menu .menu-item{
+		margin: 0;
+		font-size: 14px;
+	}
+}

@@ -153,7 +153,7 @@
 		    width: 30px;
 		}
 		.paquetes {padding-top: 15px;}
-		.paquetes-col{font-size: 18px;}
+		.paquetes-col{font-size: 17px;}
 		.paquetes-col img{width: 95px;}
 }
 
@@ -161,6 +161,49 @@
 .cont-instrucciones{}
 
 
+@media(max-width: 767px){
+	#content-main{
+		background-image: url('../img/registro_m-fondo.jpg');
+		background-repeat: no-repeat;
+	}
+	#valla{
+		width: 100%;
+		background-image: url('../img/registro_m-vaya.png');
+		background-size:600px auto;
+
+	}
+
+	.paquetes-row{flex-direction: column;}
+	.paquetes-col{
+		width: 100%;
+		
+		margin-bottom: 35px;
+	}
+	.paquetes-col img{width:120px;}
+
+	.instrucciones{
+		width: 393px;
+    	height: 635px;
+    	margin: 110px auto 350px;;
+	}
+		.instrucciones__titulo{padding-left: 0px;}
+		.instrucciones__lista{font-size: 16px;padding-left: 0px;}
+		.instrucciones__lista__item a img{width: 220px;}
+}
+@media(max-width: 500px){
+	.instrucciones{	width: 288px;}
+	.instrucciones__lista{font-size: 15px;}
+	.instrucciones__lista__item img{width: 25px;margin-right: 0px;}
+	.instrucciones__lista__item a img{width: 169px;}
+
+	.instrucciones__titulo img{width: 100%;}
+
+}
+
+
+
+
+/*  contenido con DNI  */
 .cont-dni{}
 .cont-dni__titulo img{margin:0 auto;display: block;}
 .cont-dni__texto {

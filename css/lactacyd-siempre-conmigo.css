@@ -37,6 +37,9 @@
 		text-align:left;
 		margin-bottom: 25px;
 	}
+	.producto-text-block img{
+		vertical-align: middle;
+	}
 
 .producto-redes p{
 	text-align: center;
@@ -84,3 +87,40 @@
 		}
 		.producto-text-block p{font-size: 18px;margin-bottom: 20px;}
 	}
+
+@media(max-width: 767px){
+	#content-main{
+		background-image: url('../img/conocenos_m-fondo.jpg');
+		background-position: center bottom;
+	}
+	#valla{ 
+		width: 100%;
+	    background-image: url(../img/conocenos-botellas.png),url(../img/conocenos_m-vaya.png);
+	    background-size: 490px auto, auto;
+	    background-position: center 94%, center top;
+	}
+
+	.producto-text-block{
+		margin: 110px auto 713px auto;
+	    width: 359px;
+	    height: 360px;
+	}
+	.producto-text-block p{
+	    font-size: 17px;
+    	margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 500px){
+
+	#valla{background-size: 300px auto, 540px auto;}
+	.producto-text-block{
+		margin: 88px auto 400px auto;
+	    width: 288px;
+	    height: 435px;
+	    padding: 0 15px;
+	}
+	.producto-text-block p{font-size: 16px;margin-bottom: 10px;}
+	
+	
+}
