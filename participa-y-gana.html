@@ -29,7 +29,7 @@
 					<li id="menu-conoce" class="menu-item"><a href="conoce-lactacyd.html" >Conoce Lactacyd</a></li>
 					<li id="menu-siempre" class="menu-item"><a href="lactacyd-siempre-conmigo.html">Lactacyd   Siempre Conmigo</a></li>
 					<li id="menu-participa" class="menu-item active"><a href="participa-y-gana.html">Participa y Gana</a></li>
-					<li id="tip" class="menu-item"><a href="tip-de-verano.html">Tip de Verano</a></li>
+					
 				</nav>
 				<div class="logo"><img src="img/logo-lactacyd.png" alt="Lactacyd"></div>
 			<div>
@@ -37,7 +37,7 @@
 			<section id="valla">
 				<div class="wrapper">
 					<div class="instrucciones">
-						<div class="cont-instrucciones">
+						<div class="cont-instrucciones" style="/*display: none;*/">
 							<div class="instrucciones__titulo">
 								<img src="img/participa-titulo.png" alt="cuadro-celeste">
 							</div>
@@ -66,7 +66,7 @@
 								</div>
 							</div>
 						</div><!-- Fin de contenido instrucciones -->
-						<div class="cont-dni">
+						<div class="cont-dni" style="display: none;">
 							<div class="cont-dni__titulo">
 								<img src="img/registro-dni-titulo.png" alt="registro dni titulo">
 							</div>
@@ -83,7 +83,7 @@
 
 						</div><!-- Fin de contenido ingrese DNI -->
 
-						<div class="cont-registro">
+						<div class="cont-registro" style="display: none;">
 							<div class="cont-registro__titulo">
 								<h2>¡Bienvenida!</h2>
 							</div>
@@ -129,6 +129,64 @@
 							</div>
 
 						</div><!-- Fin de contenido Registro de datos -->
+
+						<div class="cont-codigo" style="display: none;">
+							<div class="cont-codigo__cuadro">
+								<form action="#" method="POST">
+									<label>Ingresa tu código:</label>
+									<input type="text" name="codigo" id="codigo" >
+									<h3>¡A más códigos, más oportunidades de ganar!</h3>
+									<input type="submit" value="" id="codigo-submit">
+								</form>
+							</div>
+							<div class="paquetes">
+								<div class="paquetes-row">
+									<div class="paquetes-col paquetes-col--relax">
+										<a href="#"><img src="img/registro-codigo-gana.png"></a>
+									</div>
+									<div class="paquetes-col">
+										<img src="img/participa-paquete.png" alt="Paquete">
+										2 paquetes dobles a<br>
+										Pocitas - Máncora
+									</div>
+									<div class="paquetes-col  ">
+										<img src="img/participa-relax.png" alt="Paquete">
+										50 relaxpass<br>
+										dobles
+										
+									</div>
+									
+									
+								</div>
+							</div>
+						</div><!-- Fin de contenido CODIGO -->
+
+						<div class="cont-compartir" style="display: none;">
+							<div class="cont-compartir__cuadro">
+								<h2>Invita a 5 amigas y gana una opción adicional</h2>
+								<div class="cont-compartir__btn"><img src="img/icon-compartir.jpg"></div>
+								<form action="#" method="POST">
+									<input type="submit" value="" id="compartir-submit">
+								</form>
+							</div>
+							
+							
+
+						</div><!-- Fin de contenido COMPARTIR -->
+
+						<div class="cont-gracias" style="display: none;">
+							<div class="cont-gracias__cuadro">
+								
+								<h2>¡Felicitaciones Alexandra!</h2>
+								<p>Tienes XX opciones acumuladas.</p>
+								<p>¡Suerte!</p>
+								<img src="img/registro-agradecimiento-im.png">
+								<form action="#" method="POST">
+									<input type="submit" value="" id="gracias-submit">
+								</form>
+							</div>
+							
+						</div><!-- Fin de contenido Agradecimiento -->
 					</div>
 					
 

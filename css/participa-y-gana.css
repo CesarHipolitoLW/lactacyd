@@ -158,10 +158,10 @@
 }
 
 
-.cont-instrucciones{display: none;}
+.cont-instrucciones{}
 
 
-.cont-dni{display: none;}
+.cont-dni{}
 .cont-dni__titulo img{margin:0 auto;display: block;}
 .cont-dni__texto {
 	font: 300 21px 'HelveticaN';
@@ -213,6 +213,7 @@
 /*************  Registro **************************/
 
 .cont-registro{
+	
 	width: 100%;
 }
 .cont-registro__titulo h2{
@@ -306,5 +307,125 @@
 		border-radius: 45px;
 	}
 
+/********************** contenido CODIGO ***********************/
 
+.cont-codigo{
+	width: 100%;
+	
+}
+
+
+.cont-dni__cuadro{    padding-top: 10px;	}
+	.cont-codigo__cuadro label{
+		font: 300 21px 'HelveticaN';
+		text-shadow: 1px 2px 3px #000;
+		color: #fff;
+		display: block; text-align: center;
+	}
+	.cont-codigo__cuadro #codigo{
+		font: 300 21px 'HelveticaN';
+		color: #333;
+		display: block;
+		width: 260px;height: 41px;
+		background-image: url('../img/registro-codigo-inputs.jpg');
+		background-repeat: no-repeat;background-size: 100% 100%;
+		margin: 5px auto 0;
+		border:0;
+		padding: 5px 8px;
+	}
+	.cont-codigo__cuadro #codigo-submit{
+		background-image: url('../img/registro-codigo-participa.png');
+		background-repeat: repeat;
+		background-size: 100% 100%;
+		margin: 20px auto 0;
+		width: 154px;height: 48px;
+		display: block;
+		border: 0px;
+		border-radius: 40px;
+		padding: 10px 34px;
+		font: 400 21px 'HelveticaN';
+		color: #fff;
+	}
+	.cont-codigo__cuadro h3{
+		max-width: 380px;
+		margin:15px auto 0;
+		font:700 21px 'HelveticaN';
+		color: #fff;
+		text-align: center;
+		text-shadow: 1px 2px 3px #000;
+	}
+
+/********************** contenido compartir ***********************/
+
+.cont-compartir{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cont-compartir__cuadro{text-align: center;}
+
+	.cont-compartir__cuadro h2{
+		font:700 37px 'HelveticaN';
+		color:#fff;
+		text-align: center;
+		width: 435px;
+		text-shadow: 1px 2px 3px #000;
+		margin-bottom: 30px;
+	}
+
+	.cont-compartir__btn{
+		background-color: rgba(255,255,255,0.6);
+		border: 3px solid #b3782a;
+		padding: 0px 30px;
+		display: inline-block;
+		line-height: 70px;
+		margin-bottom: 30px;
+	}
+	.cont-compartir__btn img{vertical-align: middle;}
+
+	.cont-compartir #compartir-submit{
+		background-image: url('../img/registro-compartir-submitt.png');
+		background-size: 100% 100%;
+		border: 0px;
+		border-radius: 20px;
+		width: 242px;height: 42px;
+	}
+
+/********************** contenido Agradecimiento ***********************/
+
+.cont-gracias{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cont-gracias__cuadro{text-align: center;}
+
+	.cont-gracias__cuadro h2{
+		font:700 37px 'HelveticaN';
+		color:#fff;
+		text-align: center;
+		width: 435px;
+		text-shadow: 1px 2px 3px #000;
+		margin-bottom: 20px;
+	}
+	.cont-gracias__cuadro p{
+		font:300 21px 'HelveticaN';
+		text-align: center;
+		color: #fff;
+		text-shadow: 1px 2px 3px #000;
+		margin-bottom: 10px;
+	}
+
+
+	.cont-gracias__btn img{vertical-align: middle;}
+
+	#gracias-submit{
+		background-image: url('../img/registro-agradecimiento-volver.png');
+		background-size: 100% 100%;
+		border: 0px;
+		border-radius: 22px;
+		width: 155px;height: 50px;
+	}
 
