@@ -181,20 +181,23 @@
 		color: #333;
 		display: block;
 		width: 220px;height: 41px;
-		background-image: url('../img/dni-input-fondo.png');
+		background-image: url('../img/registro-dni-input-fondo.png');
 		background-repeat: no-repeat;background-size: 100% 100%;
-		margin: 0 auto;
+		margin: 20px auto 0;
 		border:0;
 		padding: 5px 2px;
 	}
 	.cont-dni__cuadro #dni-submit{
-		background-image: url('../img/dni-input-fondo.png');
+		background-image: url('../img/registro-dni-participa.png');
 		background-repeat: repeat;
-		margin: 0 auto;
+		background-size: 100% 100%;
+		margin: 20px auto 0;
 		width: 154px;
 		display: block;
-		border: 2px solid #fff;
-		border-radius: 20px;
+		border: 0px;
+		border-radius: 40px;
 		padding: 10px 34px;
+		font: 400 21px 'HelveticaN';
+		color: #fff;
 	}
 
