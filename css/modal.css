@@ -1,0 +1,186 @@
+/*  estilos para modal */
+
+
+
+
+/*  ====== fondo y centrado ======== */
+
+#modal-fondo{
+	width:100vw;
+	height:100vh;
+	background-color:rgba(0,0,0,0.6);
+	position:fixed;
+	top:0px;
+}
+.modal-envoltura{
+	width: 100%;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*=====  contenedor principal    */
+
+
+.modal-contenedor{
+	background-image: url('../img/modal-fondo-madera.jpg');
+	background-repeat: repeat;
+	width: 760px;
+	max-height: 90%;
+	border-radius: 20px 0 20px 0;
+	padding: 3px;
+	text-align: center;
+}
+.modal-wrapper{
+	width: 100%;
+	height: 100%;
+	padding: 35px 50px;
+	background-color: #fff;
+	border-radius: 16px 0 16px 0;
+}
+
+@media(max-width: 767px){
+	.modal-contenedor{
+		width: 480px;
+		max-height: 90%;
+	}
+}
+@media(max-width: 500px){
+	.modal-contenedor{
+		width: 300px;
+
+	}
+	.modal-wrapper{
+		padding-left: 20px;padding-right: 20px;
+	}
+}
+
+
+/* boton para cerrar X */
+	.modal-cerrar{
+		position: absolute;
+	    border-radius: 70px;
+	    padding: 0px;
+	    overflow: hidden;
+	    margin-left: 360px;
+	    margin-top: -19px;
+	}
+		.modal-cerrar img{display: block;width: 100%;height: auto;}
+
+@media(max-width: 767px){
+	.modal-cerrar{margin-left: 220px;}
+}
+@media(max-width: 500px){
+	.modal-cerrar{margin-left: 115px;}
+}
+
+
+
+/*titulo*/
+	h2.modal-titulo{
+		font:700 48px 'HelveticaN';
+		color: #670033;
+		padding-bottom: 35px;
+		border-bottom: 1px solid #b2b2b2;
+		text-align: left;
+	}
+
+@media(max-width: 767px){
+	h2.modal-titulo{
+		font-size: 26px;
+		padding-bottom: 10px; 
+	}
+}
+@media(max-width: 500px){
+	h2.modal-titulo{
+		font-size: 18px;
+		
+	}
+}
+
+/* contenido */
+
+.modal-block{
+	text-align: left;
+	margin-top:15px;
+	padding-top: 10px;
+	max-height:  50vh;
+	overflow-y: scroll; 
+}
+
+.modal-block p{
+	font:400 16px 'BreePeru';
+	color: #898989;
+	margin-bottom: 10px;
+}
+.modal-block h3{
+	font:700 16px 'BreePeru';
+	color: #363636;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.modal-block ul{
+	list-style: none;
+}
+
+.modal-block ul li{
+	list-style: none;
+	font: 400 29px 'BreePeru';
+	color: #898989;
+}
+
+.modal-block a{
+	color: #0036ff;
+}
+
+
+@media(max-width: 767px){
+	.modal-block{max-height: 53vh;}
+	.modal-block h3{margin-top: 15px;margin-bottom: 15px;}
+	.modal-block p{font-size: 14px;}
+	.modal-block ul li{font-size: 22px;}
+}
+
+@media(max-width: 500px){
+	.modal-block p{font-size: 13px;}
+	.modal-block h3{font-size: 15px;}
+	.modal-block ul li{font-size: 16px;} 
+
+}
+
+@media(max-height:501px){
+	
+	.modal-wrapper{padding-top: 15px;padding-bottom: 15px; }
+	.modal-block{max-height:  41vh;}
+}
+
+
+
+/* btn acepto */
+.modal-acepto{
+	display: inline-block;
+    margin-top: 10px;
+    border-radius: 23px;
+}
+	.modal-acepto img{display:block; width: 100%; height: 100%;border-radius: 20px;}
+
+
+
+.p-table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.p-table td{
+	font: 300 14px 'HelveticaN';
+    padding: 2px 3px;
+    border: 1px solid #898989;
+    text-align: center;
+    align-content: center;
+}
+@media(max-width: 500px){
+	.p-table td{font-size: 10px;padding: 2px 0;}
+}

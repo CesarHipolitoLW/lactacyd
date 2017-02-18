@@ -252,8 +252,21 @@
 		font: 400 21px 'HelveticaN';
 		color: #fff;
 	}
+	@media(max-width: 1199px){
+		.cont-dni__titulo img{width: 320px;}
+		.cont-dni__texto{margin-top: 10px;}
+	}
+
+	@media(max-width: 959px){
+		.cont-dni__titulo img{width: 220px;}
+		.cont-dni__texto{font-size: 19px;line-height: 25px;}
+		.cont-dni__texto h2{font-size: 25px;}
+		.cont-dni__cuadro #dni{height: 28px;}
+		.cont-dni__cuadro #dni-submit{margin-top: 15px;}
+	}
 
 	@media(max-width: 767px){
+		.cont-dni__titulo img{width: 100%;}
 		.cont-dni__texto{
 			width: 100%;
 			line-height: 28px;
@@ -470,9 +483,11 @@
 /********************** contenido compartir ***********************/
 
 .cont-compartir{
+	width: 100%;
 	display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .cont-compartir__cuadro{text-align: center;}
@@ -511,9 +526,11 @@
 /********************** contenido Agradecimiento ***********************/
 
 .cont-gracias{
+	width: 100%;
 	display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .cont-gracias__cuadro{text-align: center;}
@@ -523,6 +540,7 @@
 		color:#fff;
 		text-align: center;
 		width: 435px;
+
 		text-shadow: 1px 2px 3px #000;
 		margin-bottom: 20px;
 	}
@@ -552,6 +570,7 @@
 	.cont-gracias__cuadro img{width: 185px;}
 }
 @media(max-width: 959px){
+	
 	.cont-gracias__cuadro p{margin-bottom: 0px;font-size: 19px;}
 	.cont-gracias__cuadro img{width: 126px;}
 	#gracias-submit{width: 140px; height: 39px;}
@@ -564,3 +583,6 @@
 	#gracias-submit{width: 155px;height: 50px;}
 }
 
+@media(max-width: 500px){
+	.cont-gracias__cuadro h2{width: 100%;}
+}
